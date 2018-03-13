@@ -1,7 +1,6 @@
-'''
+"""
 By: Casey Finnicum and Jeff Beck
-'''
-
+"""
 import csv
 import json
 import sys
