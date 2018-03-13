@@ -10,7 +10,7 @@ By default, the script will take the first system argument (file_to_convert.csv)
 python conversion.py path/to/file/file_to_convert.csv
 ```
 
-Will output as path/to/file_to_convert.json
+Will output as ```path/to/file_to_convert.json```
 
 ## Authors
 
