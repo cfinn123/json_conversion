@@ -6,3 +6,6 @@
 .swp
 
 venv/
+
+*.csv
+*.json
