@@ -7,5 +7,5 @@
 
 venv/
 
-*.csv
-*.json
+*csv
+*json
