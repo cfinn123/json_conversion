@@ -7,5 +7,10 @@ outfile = inFile.strip('.csv')
 CSV_PATH = inFile
 JSON_PATH = outfile + str('.json')
 
-df = pd.read_csv(inFile)
-df.to_json(JSON_PATH)
+
+def lazy_csv_to_json(infile, json_path):
+    df = pd.read_csv(infile)
+    df.to_json(json_path)
+
+
+lazy_csv_to_json(CSV_PATH, JSON_PATH)
